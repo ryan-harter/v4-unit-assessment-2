@@ -12,3 +12,133 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+*{
+  margin:0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:black ;
+  height: 10vh;
+  width: 100%;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+}
+
+header h1{
+  color: blue;
+  padding:10px;
+}
+
+#main-nav{
+  list-style: none;
+  display: flex;
+  
+}
+
+#main-para{
+  margin-right: 80px;
+}
+
+.list-item{
+  color: white;
+  padding-left: 30px;
+}
+main{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#top-section{
+  display:flex;
+  
+}
+#sidebar{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#profile-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 180px;
+  width: 150px;
+  border: grey 1px solid;
+  border-radius: 15px;
+  box-shadow: 3px 3px 6px 10px #ccc;
+  
+}
+#profile-pic{
+  width: 120px;
+  
+}
+
+#popular{
+  font-size: small;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 300px;
+  width: 150px;
+  border: grey 1px solid;
+  border-radius: 15px;
+  box-shadow: 3px 3px 6px 10px #ccc; 
+}
+
+#popular h3 {
+  margin-top:10px;
+}
+
+#articles-list{
+  list-style: none;
+  padding: 10px;
+  font-size: small;
+  margin: 5px; 
+}
+
+#articles-list li{
+  margin: 5px;
+
+}
+
+.gallery-image{
+  width: 120px;
+  padding: 20px;
+}
+
+#image-gallery{
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 70%;
+  display:flex;
+  flex-direction: column;
+  font-size: small;
+
+
+}
+
+footer{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  height: 5vh;
+  box-sizing: border-box;
+}
+
+#help{
+  width: 20px;
+  position: sticky;
+  top: 0;
+}
