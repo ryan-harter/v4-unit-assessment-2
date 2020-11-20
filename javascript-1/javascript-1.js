@@ -284,7 +284,9 @@ function teachTrick(trick){
     Invoke the bind method on teachTrick, passing in fido as the context and the string 'stay' as a trick.
     Save the result to a variable called 'teachStay'.
 */
-let teachStay = teachTrick.bind(fido)('stay')
+let teachStay = teachTrick.bind(fido)
+teachStay('stay')
+
 //CODE HERE
   
   
